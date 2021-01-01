@@ -46,6 +46,7 @@ group :development do
   gem 'rubocop', require: false
   gem 'rails_best_practices', require: false
   gem 'brakeman', require: false
+  gem 'rails-erd'
 end
 
 group :test do
