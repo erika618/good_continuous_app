@@ -1,0 +1,77 @@
+@import 'materialize-css/dist/css/materialize';
+
+
+// 新規登録・ログイン・ボタンの文字
+.sign-up, .login, .btn-large {
+  font-size: 2rem;
+  padding: 0px, 20px;
+}
+
+// メインタイトル
+.header-title{
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px 3px #808080;
+}
+
+// サブタイトル
+.header-subtitle{
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 3px #808080;
+}
+
+// 文章部分
+p {
+  line-height: 2rem;
+  text-align: center;
+  font-size: medium;
+}
+
+// 画像部分の幅などを調整
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+// 画像部分は横幅いっぱいにする
+.parallax-container .section {
+  width: 100%;
+}
+
+// アイコン設定
+.icon-block {
+  padding: 0 15px;
+}
+
+// アイコン設定
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+// フッター設定
+footer.page-footer {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+// レスポンシブ対応
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
